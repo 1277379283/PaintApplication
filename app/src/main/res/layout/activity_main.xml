@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/layout_paint"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 当前使用 -->
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:gravity="center">
+        <TextView
+            style="@style/tv_public_title"
+            android:text="颜色："/>
+
+        <com.jrummyapps.android.colorpicker.ColorPanelView
+            android:id="@+id/view_color_title"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            app:cpv_colorShape="square"
+            android:key="@string/cpv_select"/>
+
+        <TextView
+            style="@style/tv_public_title"
+            android:text="笔型："
+            android:layout_marginLeft="70px"/>
+        <TextView
+            android:id="@+id/tv_paint_title"
+            style="@style/tv_public_title"
+            android:text="钢笔"
+            android:textSize="36px"
+            android:textColor="#808080"
+            android:layout_marginLeft="10px"/>
+
+        <TextView
+            style="@style/tv_public_title"
+            android:text="大小："
+            android:layout_marginLeft="70px"/>
+        <TextView
+            android:id="@+id/tv_thickness_title"
+            style="@style/tv_public_title"
+            android:text="15"
+            android:textSize="36px"
+            android:textColor="#808080"
+            android:layout_marginLeft="10px"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <View style="@style/view_public_line_style"/>
+
+    <!-- 写字板 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="5"
+        android:layout_height="0px">
+
+        <com.jacky.commondraw.views.doodleview.DoodleView
+            android:id="@+id/surface_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+    <View style="@style/view_public_line_style"/>
+
+    <!-- 功能栏 -->
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0px"
+        android:orientation="vertical">
+        <com.zhy.autolayout.AutoLinearLayout
+            style="@style/layout_public_style">
+            <Button
+                android:id="@+id/btn_paint_style"
+                style="@style/btn_public_style"
+                android:text="笔型" />
+            <Button
+                android:id="@+id/btn_paint_rubber"
+                style="@style/btn_public_style"
+                android:text="橡皮" />
+            <Button
+                android:id="@+id/btn_paint_color"
+                style="@style/btn_public_style"
+                android:text="颜色" />
+            <Button
+                android:id="@+id/btn_brush_strokes"
+                style="@style/btn_public_style"
+                android:text="大小" />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout
+            style="@style/layout_public_style">
+
+            <Button
+                android:id="@+id/btn_up"
+                style="@style/btn_public_style"
+                android:text="撤销" />
+            <Button
+                android:id="@+id/btn_next"
+                style="@style/btn_public_style"
+                android:text="恢复" />
+            <Button
+                android:id="@+id/btn_clean_up"
+                style="@style/btn_public_style"
+                android:text="清除" />
+            <Button
+                android:id="@+id/btn_save"
+                style="@style/btn_public_style"
+                android:text="保存" />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoLinearLayout>

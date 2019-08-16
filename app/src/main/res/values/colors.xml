@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!--颜色-->
+    <color name="color_white">#ffffff</color>         <!-- 白色 -->
+    <color name="color_black">#000000</color>         <!-- 黑色 -->
+    <color name="color_shallow_black">#333333</color> <!-- 浅黑色 -->
+    <color name="color_blue_violet">#abc3f3</color>   <!-- 蓝紫色 -->
+    <color name="color_blue">#6699ff</color>          <!-- 蓝色 -->
+    <color name="color_shallow_blue">#93baff</color>  <!-- 浅蓝色 -->
+    <color name="color_gray">#808080</color>          <!-- 灰色 -->
+    <color name="color_orange">#ff9900</color>        <!-- 橙色 -->
+    <color name="color_red">#ff0000</color>           <!-- 红色 -->
+    <color name="color_green">#44cc00</color>         <!-- 绿色 -->
+    <color name="color_violet">#b3b5ff</color>        <!-- 紫色 -->
+    <color name="color_cyan">#52c9de</color>          <!-- 青色 -->
+
+
+    <!-- 透明度冷知识 -->
+    <!--全透明  #00
+        10%透明 #16
+        20%透明 #32
+        30%透明 #48
+        40%透明 #64
+        50%透明 #80
+        60%透明 #96
+        70%透明 #B2
+        80%透明 #C8
+        90%透明 #E4
+        不透明（黑色） #F000-->
+    <color name="transparent">#00000000</color>              <!-- 完全透明-->
+    <color name="color_solid_10_black">#16000000</color>     <!-- 黑色 10%-->
+    <color name="color_solid_20_black">#32000000</color>     <!-- 黑色 20%-->
+    <color name="color_solid_30_black">#48000000</color>     <!-- 黑色 30%-->
+    <color name="color_solid_40_black">#64000000</color>     <!-- 黑色 40%-->
+    <color name="color_solid_50_black">#80000000</color>     <!-- 黑色 50%-->
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ColorPanelView"><attr format="boolean" name="cpv_showOldColor"/><attr format="enum" name="cpv_colorShape">
+      <enum name="square" value="0"/>
+      <enum name="circle" value="1"/>
+    </attr><attr format="color|reference" name="cpv_borderColor"/></declare-styleable>
+    <declare-styleable name="ColorPickerView"><attr format="boolean|reference" name="cpv_alphaChannelVisible"/><attr format="string|reference" name="cpv_alphaChannelText"/><attr format="color|reference" name="cpv_sliderColor"/><attr name="cpv_borderColor"/></declare-styleable>
+    <declare-styleable name="ColorPreference"><attr format="boolean|reference" name="cpv_showAlphaSlider"/><attr format="enum" name="cpv_previewSize">
+      <enum name="regular" value="0"/>
+      <enum name="large" value="1"/>
+    </attr><attr name="cpv_colorShape"/><attr format="reference" name="cpv_dialogTitle"/><attr format="reference" name="cpv_colorPresets"/><attr format="enum" name="cpv_dialogType">
+      <enum name="custom" value="0"/>
+      <enum name="preset" value="1"/>
+    </attr><attr format="boolean|reference" name="cpv_showColorShades"/><attr format="boolean|reference" name="cpv_allowPresets"/><attr format="boolean|reference" name="cpv_allowCustom"/><attr format="boolean|reference" name="cpv_showDialog"/></declare-styleable>
+    <dimen name="cpv_color_preference_large">40dp</dimen>
+    <dimen name="cpv_color_preference_normal">28dp</dimen>
+    <dimen name="cpv_column_width">58dp</dimen>
+    <dimen name="cpv_dialog_preview_height">34dp</dimen>
+    <dimen name="cpv_dialog_preview_width">66dp</dimen>
+    <dimen name="cpv_item_horizontal_padding">8dp</dimen>
+    <dimen name="cpv_item_size">50dp</dimen>
+    <dimen name="cpv_required_padding">6dp</dimen>
+    <item name="cpv_color_panel_new" type="id"/>
+    <item name="cpv_color_panel_old" type="id"/>
+    <item name="cpv_color_picker_view" type="id"/>
+    <item name="cpv_preference_preview_color_panel" type="id"/>
+    <string name="cpv_custom">Custom</string>
+    <string name="cpv_default_title">Select a Color</string>
+    <string name="cpv_presets">Presets</string>
+    <string name="cpv_select">Select</string>
+    <string name="cpv_transparency">Transparency</string>
+    <style name="cpv_ColorPickerViewStyle">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">315dp</item>
+  </style>
+</resources>
