@@ -1,8 +1,7 @@
 # PaintApplication
 
 演示效果图
-
-
+![演示](https://github.com/1277379283/PaintApplication/blob/master/GIF.gif)
 
 手写签名 demo
 1.笔刷选择器 支持铅笔，钢笔，圆珠笔，毛笔，记号笔，喷枪
@@ -17,3 +16,6 @@
  
   感谢画笔功能出处
   https://github.com/jackyzhougithub/commondraw
+  
+  最后
+  如果有帮到您，请给个star 吧 
